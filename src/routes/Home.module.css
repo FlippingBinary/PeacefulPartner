@@ -1,0 +1,40 @@
+.section-title-left, .section-title-right {
+  display: flex;
+  color: white;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 5vw;
+  padding: 0 10vw;
+}
+.section-title-left {
+  justify-content: start;
+}
+.section-title-right {
+  justify-content: end;
+}
+.section-body {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: #1a1a1a;
+}
+.section-text {
+  width: 75%;
+  color: white;
+  font-family: 'Old Standard TT', serif;
+  font-size: min(3.5vw, 3vh);
+  line-height: 2;
+}
+.emphasis {
+  font-family: 'Euphoria Script', cursive;
+  font-size: min(5vw, 5vh);
+  padding: 0 0.1em;
+}
+.action-buttons {
+  min-width: 50%;
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+}
